@@ -1,0 +1,862 @@
+#grad1 
+{
+    
+    z-index: 99;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(122, 29, 29); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(134, 29, 29) , rgb(187, 116, 58));
+    position: relative;
+}
+
+.need-padding {
+    padding: 0 20px 0 20px;
+}
+
+.price {
+    font-weight: bold;
+    padding: 0 20px 0 20px;
+}
+
+#product-head
+{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 132px;
+    width: 80%;
+}
+#product
+{
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+
+}
+#product-block
+{
+    width: 100%;
+    height: 450px;
+    top: 250px;
+    position: absolute;
+    
+}
+
+#product-block-bottom
+{
+    width: 64%;
+    top: 75%;
+    position: relative;
+}
+.product-block-button
+{
+    position: absolute;
+    width: 40%;
+    height: 8%;
+    margin-left: auto;
+    left: 30%;
+    top: 82%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    border: 2px solid #a51414;
+    border-radius: 10px;
+    color: #aa0c0c;
+    
+}
+.product-block-button:hover
+{
+    background-color: #a51414;
+    color: white;
+    text-decoration: none;
+}
+
+.product-block-image
+{
+    width: 100%;
+    position: absolute;
+    height: 50%;
+    border-radius: 10px 10px 0px 0px;
+}
+#product-block1-image{
+    background-image: url("IMG_0162.JPG"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-block
+{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 220px;
+    position: absolute;
+    padding: 0px;
+    border-radius: 10px;
+    
+}
+.product-block-button-word
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding-top: 2px;
+}
+
+#product-block1-label
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    top: 60%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#product-block1-label2
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    top: 65%;
+    text-align: center;
+}
+.product-block-button
+{
+    position: absolute;
+    width: 40%;
+    height: 8%;
+    margin-left: auto;
+    left: 30%;
+    top: 82%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid  #a51414;
+    border-radius: 10px;
+}
+
+#product-block3
+{
+    right: 0%;
+}
+
+
+#product-block2-label
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    top: 50%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #product-block2-label2
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    top: 65%;
+    text-align: center;
+} */
+
+
+#product-block3-label
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    top: 50%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #product-block3-label2
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    top: 65%;
+    text-align: center;
+} */
+
+#product-block2-image {
+    background-image: url("products_pic/IMG_0184.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#product-block3-image {
+    background-image: url("products_pic/IMG_0183.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#product-block4-image {
+    background-image: url("products_pic/IMG_0132.JPG"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#product-block5-image {
+    background-image: url("products_pic/IMG_0157.JPG"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#product-block5
+{ 
+    right: 0;
+}
+
+
+#product-block4-label
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    top: 60%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* #product-block4-label2
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    top: 65%;
+    text-align: center;
+} */
+#product-block5-label
+{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    top: 60%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content2
+{
+    position: absolute;
+    max-height: 755;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: white; /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(161, 161, 161)) */
+}
+.line1
+{
+    position: relative;
+    height: 100px;
+    width: 8px;
+    background-color: rgb(184, 34, 28);
+    left: 14%;
+    top: 35%;
+}
+#content2-block-head
+{
+    position: relative;
+    color:rgb(184, 34, 28);
+    width: 100%;
+    height: 200px;
+}
+#content2-head
+{
+    position: relative;
+    height: 60px;
+    width: 20%;
+    font-size: 200px;
+    top: 35%;
+    left: 15%;
+    top: 110px;
+    color:rgb(184, 34, 28);
+}
+
+/* ----product1----- */
+
+#content2-product1-image
+{
+    position: relative;
+    width: 100%;
+    background-image: url("products_pic/IMG_0185.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    z-index: 5;
+}
+#content2-product1-detail
+{
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+#content2-product1-head
+{
+    position: relative;
+    font-size:40px;
+    color:black;
+    font-weight: 755;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#content2-product1-thai
+{
+    position: relative;
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content2-product1-p
+{
+    font-size:15px; 
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    right: 2%;
+}
+
+/* ----product 2---- */
+#content2-product2-image
+{
+    position: relative;
+    width: 100%;
+    background-image: url("products_pic/IMG_0182.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -40px;
+    z-index: 5;
+}
+#content2-product2-detail
+{
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+#content2-product2-head
+{
+    position: relative;
+    font-size:40px;
+    color:black;
+    font-weight: 755;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#content2-product2-thai
+{
+    position: relative;
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content2-product2-p
+{
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+}
+
+/* content 3 */
+
+#content3
+{
+    position: relative;
+    max-height: 755;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(77, 77, 77)) */
+}
+#content3-block-head
+{
+    position: relative;
+    
+    width: 100%;
+    height: 200px;
+}
+
+#content3-head
+{
+    position: relative;
+    height: 60px;
+    width: 20%;
+    font-size: 200px;
+    left: 15%;
+    top: 50px;
+    color:rgb(184, 34, 28);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----product1----- */
+#content3-product1-image
+{
+    position: relative;
+    width: 100%;
+    background-image: url("products_pic/IMG_0184.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+#content3-product1-detail
+{
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+#content3-product1-head
+{
+    position: relative;
+    font-size:40px;
+    color:black;
+    font-weight: 755;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#content3-product1-thai
+{
+    position: relative;
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content3-product1-p
+{
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    right: 2%;
+}
+
+/* ----product 2---- */
+    #content3-product2-image
+    {
+        position: relative;
+        width: 100%;
+        background-image: url("products_pic/IMG_0999.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 5;
+    }
+    #content3-product2-detail
+    {
+        position: relative;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+    }
+    #content3-product2-head
+    {
+        position: relative;
+        font-size:40px;
+        color:black;
+        font-weight: 755;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+    }
+    
+    #content3-product2-thai
+    {
+        position: relative;
+        font-size:15px;
+        color:rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #content3-product2-p
+    {
+        font-size:15px;
+        color:rgb(0, 0, 0);
+        text-align: justify;
+        width: 70%;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #content3-product3-head {
+        position: relative;
+        font-size:40px;
+        color:black;
+        font-weight: 755;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: right;
+    }
+
+    #content3-product3-thai {
+        position: relative;
+        font-size:15px;
+        color:rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #content3-product3-image
+    {
+        position: relative;
+        width: 100%;
+        background-image: url("products_pic/IMG_0181.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 5;
+    }
+    
+/* 
+Content 4 */
+#product-block-bottom
+{
+    position: relative;
+width: 540px;
+height: 500px;
+top: 49%;
+left: 405px;
+}
+#content4
+{
+    position: relative;
+    max-height: 755;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(247, 95, 95)) */
+}
+#content5
+{
+    position: relative;
+    max-height: 755;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(136, 95, 247)) */
+}
+#content6
+{
+    position: relative;
+    max-height: 755;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(255, 255, 255); /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(247, 95, 234)) */
+}
+.line
+{
+    position: absolute;
+    height: 100px;
+    width:8px;
+    background-color:rgb(184, 34, 28);
+    left: 200px;
+    top:80px;
+}
+.content-block-head
+{
+    position: relative;
+  
+    width: 100%;
+    height: 200px;
+}
+.content-head
+{
+    position: relative;
+    height: 60px;
+    width: 20%;
+    color: rgb(184, 34, 28);
+    font-size: 150px;
+    top: 35%;
+    left: 15%;
+}
+
+/* ----product1----- */
+#content5-product1-image{
+    background-image: url("products_pic/IMG_0172.jpg");
+}
+#content6-product1-image{
+    background-image: url("products_pic/IMG_0157.jpg"); 
+}
+
+/* ----product 2---- */
+
+/* ----content4----*/
+#content4-head
+{
+    position: relative;
+    height: 60px;
+    width: 20%;
+    font-size: 200px;
+    left: 15%;
+    top: 50px;
+    color:rgb(184, 34, 28);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content4-product1-image
+{
+    position: relative;
+    width: 100%;
+    background-image: url("products_pic/IMG_0180.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+#content3-product3-detail
+{
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+#content4-product1-head
+{
+    position: relative;
+    font-size:40px;
+    color:black;
+    font-weight: 755;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#content4-product1-thai
+{
+    position: relative;
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#content4-product1-p
+{
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content4-product2-image
+{
+    position: relative;
+    width: 100%;
+   background-image: url("products_pic/IMG_0183.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+#content4-product2-detail
+{
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+#content4-product2-head
+{
+    position: relative;
+    font-size:40px;
+    color:black;
+    font-weight: 755;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#content4-product2-thai
+{
+    position: relative;
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content4-product2-p
+{
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+}
+/*-----*/
+/*---content5--*/
+#content5-head
+{
+    position: relative;
+    height: 60px;
+    width: 20%;
+    font-size: 200px;
+    top: 35%;
+    left: 15%;
+    top: 110px;
+    color:rgb(184, 34, 28);
+}
+
+#content5-product1-image
+{
+    position: relative;
+    width: 100%;
+    background-image: url("products_pic/IMG_0172.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+#content5-product1-detail
+{
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+#content5-product1-head
+{
+    position: relative;
+    font-size:40px;
+    color:black;
+    font-weight: 755;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#content5-product1-thai
+{
+    position: relative;
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#content5-product1-p
+{
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----product 2---- */
+    #content5-product2-image
+    {
+        position: relative;
+        width: 100%;
+        background-image: url("products_pic/IMG_0143.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 5;
+    }
+    #content3-product2-detail
+    {
+        position: relative;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+    }
+    #content5-product2-head
+    {
+        position: relative;
+        font-size:40px;
+        color:black;
+        font-weight: 755;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+    }
+    
+    #content5-product2-thai
+    {
+        position: relative;
+        font-size:15px;
+        color:rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #content5-product2-p
+    {
+        font-size:15px;
+        color:rgb(0, 0, 0);
+        text-align: justify;
+        width: 70%;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+/*----content6---*/
+#content6-head
+{
+    position: relative;
+    height: 60px;
+    width: 20%;
+    font-size: 200px;
+    top: 35%;
+    left: 15%;
+    top: 110px;
+    color:rgb(184, 34, 28);
+}
+
+#content6-product1-image
+{
+    position: relative;
+    width: 100%;
+    background-image: url("products_pic/IMG_1000.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+#content5-product1-detail
+{
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+#content6-product1-head
+{
+    position: relative;
+    font-size:40px;
+    color:black;
+    font-weight: 755;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#content6-product1-thai
+{
+    position: relative;
+    font-size:15px;
+    color:rgb(73, 73, 73);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+#content6-product1-p
+{
+    font-size:15px;
+    color:rgb(73, 73, 73);
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,343 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+#topic-nav
+{
+    position:relative;
+    width:100%;
+    height:100px;
+}
+#main-nav
+{
+    z-index: 100;
+    position: fixed;
+    top:50px;
+    right: 0px;
+    width: 675px;
+    margin-right: 68px;
+    top:50px;
+    right: 0px;
+    width: 675px;
+    margin-right: 68px;
+    height: 50px;
+}
+#ul-nav
+{
+    margin: 0px;
+    text-decoration: none;  
+    text-align: right;
+    top: 50px;
+    position: relative;
+}
+#ul-nav li
+{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#ul-nav li a
+{
+    line-height: 30px;
+    text-decoration: none;
+    color:white;
+}
+
+#ul-nav li a:hover{
+    color: red;
+}
+
+#ul-nav li a:active{
+    color: red;
+}
+
+#product-nav-block{
+    height:30px;
+    border-top: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+a #product-nav-block:hover{
+    border-top: 4px solid red;
+    padding-top: 0px;
+}
+
+#event-nav-block{
+    height:30px;
+    border-top: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+a #event-nav-block:hover{
+    border-top: 4px solid red;
+    padding-top: 0px;
+}
+
+
+#aboutus-nav-block{
+    height:30px;
+    border-top: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+a #aboutus-nav-block:hover{
+    border-top: 4px solid red;
+    padding-top: 0px;
+}
+
+#faq-nav-block{
+    height:30px;
+    border-top: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+a #faq-nav-block:hover{
+    border-top: 4px solid red;
+    padding-top: 0px;
+}
+
+#topic
+{
+    background-image:  url("iculture_white.png"); 
+    position: absolute;
+    width:200px;
+    top:50px;
+    left:10%;
+    height:50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#topic-link
+{
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+#topic-link p
+{
+    margin: 0px;
+}
+#link-home
+{
+    width:100%;
+    height: 100%;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:250px;   /* Height of the footer */
+    background-color: rgb(44, 44, 44); /* For browsers that do not support gradients */
+    left: 0%;
+ }
+ #footer-text {
+    width: 100%;
+height: 100%;
+margin: 0px;
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+}
+ #footer-text h5 {
+    color: rgb(182, 0, 0);
+    text-align: left;
+    position: relative;
+    font-size: 20PX;
+    margin: 0px;
+    -webkit-transform: rotate(-90deg);
+    font-weight: 700;
+    width: 210px;
+right: 40%;
+top:15%;
+font-family: Arial, Helvetica, sans-serif;
+}
+#footer-text ul
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer-text ul li 
+{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    position: relative;
+    font-size: 15px;
+    list-style-type: none;
+    -webkit-transition: .9s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #footer-text ul li a
+ {
+   color: aliceblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+#footer-text ul li:hover{
+    margin-left:  15px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer-logo{
+    width: 250px;
+    height: 50px;
+    top: 65px;
+    left: 50px;
+    position:  relative;
+    background-image: url("iculture_mu_white.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#footer-symbol
+{
+    position: relative;
+    top: 55px;
+    width: 100px;
+    height: 50px;
+    left: 15%;
+}
+#footer-facebook{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    background-image: url("facebook.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#footer-ig{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url("instagram.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 20px;
+    top: 70px;
+}
+#footer-twitter{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url("twitter.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 40px;
+    left: 20px;
+}
+#footer-symbol-label
+{
+    position: relative;
+width: 100px;
+height: 150px;
+left: 30%;
+}
+#footer-symbol-label ul
+{
+    margin: 0px;
+    padding-left: 0px;
+}
+ #footer-symbol-label ul li 
+{
+    font-family: Arial, Helvetica, sans-serif;    
+     margin:10px;
+     padding: 0px;
+     position: relative;
+     font-size: 15px;
+     list-style-type: none;
+     -webkit-transition: .9s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+ }
+ #footer-symbol-label ul li a
+ {
+   color: aliceblue;
+    text-decoration: none;
+ }
+#footer-symbol-label li:hover{
+    margin-left:  15px;
+	font-weight:700;
+}
+
+#footer-address{
+    position: relative;
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 150px;
+    top: 15%;
+    font-size: 12px;
+    left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* auto scrolling */
+#button-go
+{
+    z-index: 1030;
+    bottom: 2%;
+    position: fixed;
+    width: 2%;
+
+}
+.button1
+{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    opacity: 1.0;
+    width: 100%;
+    margin: 0px;
+    margin-top:2px;
+    height: 50px;
+}
+
+.button1:hover{
+    width: 600%;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button1:focus
+{
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 800px) {
+#ul-nav li {
+        width: 30%;
+        margin-left: 70%;
+        
+}
+    #footer-text h5{
+        color: rgb(182, 0, 0);
+        text-align: left;
+        position: relative;
+        font-size: 20PX;
+        margin: 0px;
+        -webkit-transform: rotate(-90deg);
+        font-weight: 700;
+        width: 210px;
+        right: 25%;
+        top: 15%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
